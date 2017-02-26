@@ -1,4 +1,5 @@
 FROM python:3.6
+MAINTAINER Vipul <vipul.sharma20@gmail.com>
 
 RUN apt-get -y update
 RUN apt-get -y install wget unzip \
